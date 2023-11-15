@@ -76,14 +76,23 @@ const Template = () => {
         {surveyTemplates.map((template, index) => (
           <div key={index} className=" bg-white rounded-lg overflow-hidden shadow-md">
             <a href={template.link}>
-              <img src={template.image} alt={template.title} className="w-full h-36 object-cover" />
+              <img src={template.image} alt={template.title} className="w-full h-36 object" />
             </a>
             <div className="p-4">
               <h2 className="text-xl font-bold text-gray-700 mb-2">{template.title}</h2>
               <p className="text-gray-600">{template.description}</p>
             </div>
           </div>
+
         ))}
+         <div className="mt-5">
+        <Link
+          to="/"
+          className="py-2 px-4 w-[200px] text-white bg-fuchsia-700  rounded-md font-semibold hover:bg-fuchsia-500 block"
+        >
+          Go back
+        </Link>
+      </div>
       </div>
       <div className="bg-white p-4 md:px-8 md:py-6">
         <div className="border-t border-gray-300 my-4 md:my-8"></div>

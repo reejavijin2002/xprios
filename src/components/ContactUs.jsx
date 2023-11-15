@@ -252,7 +252,16 @@ const MyForm = () => {
                             {/* <video src={video}></video> */}
                             
                             </div>
+                            <div className="mt-5">
+        <Link
+          to="/"
+          className="py-2 ml-2 px-4 w-[200px] text-white bg-fuchsia-700  rounded-md font-semibold hover:bg-fuchsia-500 block"
+        >
+          Go back
+        </Link>
+      </div>
                     </div>
+                    
 
                 </div>
 

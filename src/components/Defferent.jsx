@@ -56,7 +56,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-fuchsia-700 via-purple-600 to-fuchsia-700 h-auto mx-5 mt-16">
+    <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 h-auto mx-5 mt-16">
       <h1 className="text-white md:text-6xl sm:text-4xl xs:text-2xl font-extrabold p-20 sm:p-10 xs:p-3 font-sans">
         What Makes Us Different
       </h1>

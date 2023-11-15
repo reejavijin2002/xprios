@@ -63,7 +63,7 @@ const SurveyTemplatesComponent = () => {
        
         <div key={index} className=" bg-white rounded-lg overflow-hidden shadow-md">
           <a href={template.link}>
-            <img src={template.image} alt={template.title} className="w-full h-36 object-cover" />
+            <img src={template.image} alt={template.title} className="w-full h-36 object" />
           </a>
           <div className="p-4">
             <h2 className="text-xl font-bold text-gray-700 mb-2">{template.title}</h2>
@@ -72,6 +72,7 @@ const SurveyTemplatesComponent = () => {
         </div>
        
       ))}
+      
     </div>
     </>
   );

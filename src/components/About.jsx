@@ -95,11 +95,19 @@ const AboutUs = () => {
           <div className="text-center">
             <Link
               to="#"
-              className="text-blue-500 hover:underline hover:text-blue-700"
+              className="text-fuchsia-700 hover:underline hover:text-fuchsia-500"
             >
               Learn More
             </Link>
           </div>
+          <div className="mt-5">
+        <Link
+          to="/"
+          className="py-2 px-4 w-[200px] text-white bg-fuchsia-700  rounded-md font-semibold hover:bg-fuchsia-500 block"
+        >
+          Go back
+        </Link>
+      </div>
           </div>
           </div>
         </div>
