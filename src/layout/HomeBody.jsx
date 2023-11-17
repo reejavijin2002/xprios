@@ -1,16 +1,10 @@
-
-
-import React from 'react';
-import Sidebar from './Sidebar';
+import React from "react";
+import Sidebar from "./Sidebar";
 
 const HomeBody = () => {
   return (
     <div className="container mx-auto p-8">
-  
-      <Sidebar/>
-
-    
-     
+      <Sidebar />
     </div>
   );
 };

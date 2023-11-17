@@ -1,9 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Dashboardicon = () => {
   return (
-    <nav className="bg-fuchsia-700 font-semibold  xs:w-full sm:w-full md:w-full text-white  p-4  h-screen">
+    <nav className="bg-fuchsia-700 font-semibold font-[poppins] xs:w-full sm:w-full md:w-full text-white  p-4  h-screen">
       <ul className="space-y-4">
         <li className="mb-2">
           <Link
@@ -46,14 +46,7 @@ const Dashboardicon = () => {
             QR Code and SMS
           </Link>
         </li>
-        <li className="mb-2">
-          <Link
-            to="/dashboardarrange/Notifications"
-            className="block py-2 px-4 hover:bg-fuchsia-600 transition duration-300 rounded"
-          >
-            Notifications
-          </Link>
-        </li>
+
         <li className="mb-2">
           <Link
             to="/dashboardarrange/Feedback"
@@ -72,7 +65,7 @@ const Dashboardicon = () => {
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Dashboardicon
+export default Dashboardicon;

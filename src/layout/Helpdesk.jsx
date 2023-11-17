@@ -1,4 +1,4 @@
-// HelpdeskPage.js
+
 import React, { useState } from 'react';
 
 const HelpdeskPage = () => {
@@ -8,10 +8,9 @@ const HelpdeskPage = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    // Add logic to handle form submission (e.g., sending an email or storing the message)
-    // For simplicity, let's just log the data for now
+    
     console.log('Form submitted:', { name, email, message });
-    // You may want to clear the form fields or show a confirmation message here
+    
   };
 
   return (
@@ -19,17 +18,17 @@ const HelpdeskPage = () => {
       <div className="bg-white p-8 rounded shadow-md w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
         <h2 className="text-2xl font-semibold mb-4">Helpdesk</h2>
 
-        {/* FAQs Section */}
+        
         <section className="mb-6">
           <h3 className="text-xl font-semibold mb-2">Frequently Asked Questions</h3>
           <ul>
             <li>How do I reset my password?</li>
             <li>Where can I find the user manual?</li>
-            {/* Add more FAQs as needed */}
+          
           </ul>
         </section>
 
-        {/* Contact Form Section */}
+      
         <section className="mb-6">
           <h3 className="text-xl font-semibold mb-2">Contact Us</h3>
           <form onSubmit={handleFormSubmit}>
@@ -78,11 +77,11 @@ const HelpdeskPage = () => {
           </form>
         </section>
 
-        {/* Live Chat Section (Placeholder) */}
+        
         <section>
           <h3 className="text-xl font-semibold mb-2">Live Chat</h3>
           <p>Our live chat support is available during business hours.</p>
-          {/* Add a live chat widget or integration here */}
+          
         </section>
       </div>
     </div>

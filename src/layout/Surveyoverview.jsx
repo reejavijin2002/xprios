@@ -15,10 +15,10 @@ const SurveyOverview = () => {
   ];
 
   return (
-    <div className='md:flex w-full h-auto md:h-screen lg:h-screen xl:h-screen md:p-20'>
-    <div className="bg-white md:w-1/2 md:h-[500px]  ">
-      <div className="bg-white p-8 rounded h-full w-full   md:w-full lg:w-full xl:w-full">
-        <h2 className="md:text-4xl xs:text-xl font-extrabold font-sans mb-4">Survey Overview</h2>
+    <div className='md:flex w-full h-auto md:h-auto lg:h-auto xl:h-auto lg:p-20'>
+    <div className="bg-white md:w-1/2 md:h-auto  ">
+      <div className="bg-white lg:p-8 rounded h-full w-full font-[poppins]  md:w-full lg:w-full xl:w-full">
+        <h2 className="md:text-4xl xs:text-xl font-extrabold font-[poppins] mb-4">Survey Overview</h2>
 
         {surveys.length > 0 ? (
           <ul className="list-disc pl-4">
@@ -35,7 +35,7 @@ const SurveyOverview = () => {
     
     </div>
       <div className='md:w-1/2'>
-      <img src={overview} alt='' height='320px' width="400px"/>
+      <img src={overview} alt='' height='500px' width="500px"/>
     </div>
     </div>
   );

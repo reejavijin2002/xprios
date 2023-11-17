@@ -15,8 +15,8 @@ const Surveycreation = () => {
 
   return (
     <div className="container mx-auto h-auto md:h-screen lg:h-screen xl:h-screen my-8 xs:p-2 sm:p-4 md:p-8  md:flex">
-      <div className='xs:ml-2 sm:ml-4 w-full'>
-      <h1 className="text-3xl font-extrabold mb-4 font-sans">Creating Survey For Your Choice</h1>
+      <div className='xs:ml-2 font-[poppins] sm:ml-4 w-full'>
+      <h1 className="md:text-4xl xs:text-2xl font-extrabold mb-4 font-[poppins]">Creating Survey For Your Choice</h1>
       
       <div className="mb-4">
         <input
@@ -34,7 +34,7 @@ const Surveycreation = () => {
           onChange={(e) => setNewQuestion(e.target.value)}
           className="p-2 border border-gray-300 w-full"
         />
-        <button onClick={handleAddQuestion} className="bg-fuchsia-700 ml-0 mt-4 text-white p-2 ">
+        <button onClick={handleAddQuestion} className="bg-fuchsia-700 rounded-md ml-0 mt-4 hover:bg-white hover:outline hover:text-fuchsia-700 text-white p-2 ">
           Add Question
         </button>
       </div>
@@ -48,9 +48,12 @@ const Surveycreation = () => {
           ))}
         </ul>
       </div>
+      <button onClick={handleAddQuestion} className="bg-fuchsia-700 ml-0 mt-4 rounded-md hover:bg-white hover:outline hover:text-fuchsia-700 text-white p-2 ">
+          Create Survey
+        </button>
       </div>
       <div className='md:ml-10 xs:ml-2 sm:ml-4  w-full'>
-        <img src={create} alt='' height='320px' width="400px"/>
+        <img src={create} alt='' height='500px' width="500px"/>
       </div>
     </div>
   );

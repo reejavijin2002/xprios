@@ -1,9 +1,9 @@
-// DataAnalysisPage.js
+
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
 const Dataananalysis = () => {
-  // Dummy data for the bar chart (replace with your actual data)
+  
   const chartData = {
     labels: ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5'],
     datasets: [

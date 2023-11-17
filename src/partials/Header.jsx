@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import logo from "../images/WhatsApp Image 2023-11-03 at 1.15.53 PM.jpeg";
 import { Link } from "react-router-dom";
 import Headlinks from "../components/Headlinks";
-import home from "../images/lg.jpg";
+import home from "../images/log.jpg";
 import { MdViewHeadline } from "react-icons/md";
 
 function Header() {
@@ -16,7 +16,7 @@ function Header() {
               <div>
                 <img src={logo} alt="" width="30px" height="30px" />
               </div>{" "}
-              <div className="font-bold ">
+              <div className="font-bold font-[poppins] ">
                 <h3>XPRIOS</h3>
               </div>
             </div>
@@ -31,7 +31,7 @@ function Header() {
                 <img
                   className="rounded-full  border border-fuchsia-950 "
                   style={{
-                    border:"0.2rem solid fuchsia" ,
+                    border: "0.2rem solid fuchsia",
                     width: "40px",
                     height: "40px",
                     transition: "border-color 0.3s ease", // Adding transition for a smoother effect
@@ -47,14 +47,12 @@ function Header() {
               </Link>
             </div>
           </div>
-          <div className='xs:visible md:hidden'>
-          <Link to='/Landingicon'>
-      <div className='xs:visible md:hidden'>
-        
-    <MdViewHeadline className='w-[25px] h-[25px] xs:visible md:invisible' />
-    
-    </div>
-    </Link>
+          <div className="xs:visible md:hidden">
+            <Link to="/Landingicon">
+              <div className="xs:visible md:hidden">
+                <MdViewHeadline className="w-[25px] h-[25px] xs:visible md:invisible" />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

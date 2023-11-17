@@ -3,7 +3,7 @@ import { Routes, Route, useLocation, BrowserRouter, Link } from "react-router-do
 
 import "./css/style.css";
 
-import "./charts/ChartjsConfig";
+
 
 // Import pages
 import Dashboard from "./pages/Dashboard";
@@ -25,6 +25,12 @@ import NotificationPage from "./layout/Notifications";
 import Dashfirst from "./layout/Dashfirst";
 import Dashboardicon from "./layout/Dashboardicon";
 import Landingicon from "./components/Landingicon";
+import CustomerSatisfactionSurvey from "./layout/CustomerSatisfactionSurvey";
+import EmployeeEngagement from "./Morecomponents/EmployeeEngagement";
+import EducationSurvey from "./Morecomponents/EducationSurvey";
+import EventPlanningSurvey from "./Morecomponents/EventPlanningSurvey";
+import MarketResearchSurvey from "./Morecomponents/MarketResearchSurvey";
+import HealthcareSurvey from "./Morecomponents/HealthcareSurvey";
 
 
 
@@ -85,6 +91,24 @@ function App() {
            <Route 
           path=""
            element={<Dashfirst/>}/>
+            <Route 
+          path="CustomerSatisfactionSurvey"
+           element={<CustomerSatisfactionSurvey/>}/>
+           <Route 
+          path="EmployeeEngagement"
+           element={<EmployeeEngagement/>}/>
+             <Route 
+          path="EducationSurvey"
+           element={<EducationSurvey/>}/>
+             <Route 
+          path="EventPlanningSurvey"
+           element={<EventPlanningSurvey/>}/>
+             <Route 
+          path="MarketResearchSurvey"
+           element={<MarketResearchSurvey/>}/>
+             <Route 
+          path="HealthcareSurvey"
+           element={<HealthcareSurvey/>}/>
            
       </Route>
        

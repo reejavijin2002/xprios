@@ -14,8 +14,8 @@ const FeedbackPage = () => {
   return (
     <div className='md:flex'>
     <div className="bg-white min-h-screen h-screen">
-      <div className="bg-white p-8 rounded  w-full md:w-full lg:w-full xl:w-full">
-        <h2 className="text-2xl font-extrabold font-sans mb-4">Feedback</h2>
+      <div className="bg-white p-8 rounded font-[poppins] w-full md:w-full lg:w-full xl:w-full">
+        <h2 className="xs:text-2xl md:text-4xl font-extrabold font-[poppins] mb-4">Feedback</h2>
 
         <form onSubmit={handleFormSubmit}>
           <label className="block mb-2" htmlFor="feedback">
@@ -32,15 +32,15 @@ const FeedbackPage = () => {
 
           <button
             type="submit"
-            className="bg-fuchsia-700 text-white py-2 px-4 rounded hover:bg-fuchsia-900"
+            className="bg-fuchsia-700 text-white py-2 px-4 rounded hover:bg-white hover:outline hover:text-fuchsia-700"
           >
             Submit Feedback
           </button>
         </form>
       </div>
     </div>
-     <div className='ml-5 mt-8'>
-     <img src={feedback1} alt='' height='320px' width="400px"/>
+     <div className='md:ml-5 md:mt-8'>
+     <img src={feedback1} alt='' height='500px' width="500px"/>
  
      </div>
      </div>

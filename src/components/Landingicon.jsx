@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Landingicon = () => {
   return (
-    <div className="flex items-center space-y-4 h-screen flex-col">
+    <div className="flex items-center bg-stone-300 pt-10 font-[poppins] space-y-4 h-screen flex-col">
       <div>
         <Link
           to="/About"

@@ -2,8 +2,8 @@ import React from 'react';
 
 function WelcomeBanner() {
   return (
-    <div className="relative bg-indigo-200 dark:bg-indigo-500 p-4 sm:p-6 rounded-sm overflow-hidden mb-8">
-      {/* Background illustration */}
+    <div className="relative bg-gradient-to-r from-fuchsia-600 via-fuchsia-500 to-fuchsia-400 dark:from-fuchsia-500 dark:via-fuchsia-400 dark:to-fuchsia-300 p-4 sm:p-6 rounded-sm overflow-hidden mb-8">
+      
       <div className="absolute right-0 top-0 -mt-4 mr-16 pointer-events-none hidden xl:block" aria-hidden="true">
         <svg width="319" height="198" xmlnsXlink="http://www.w3.org/1999/xlink">
           <defs>
@@ -11,12 +11,12 @@ function WelcomeBanner() {
             <path id="welcome-e" d="M40 0l40 80-40-12.5L0 80z" />
             <path id="welcome-g" d="M40 0l40 80-40-12.5L0 80z" />
             <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="welcome-b">
-              <stop stopColor="#A5B4FC" offset="0%" />
-              <stop stopColor="#818CF8" offset="100%" />
+              <stop stopColor="#e879f9" offset="0%" />
+              <stop stopColor="#c026d3" offset="100%" />
             </linearGradient>
             <linearGradient x1="50%" y1="24.537%" x2="50%" y2="100%" id="welcome-c">
-              <stop stopColor="#4338CA" offset="0%" />
-              <stop stopColor="#6366F1" stopOpacity="0" offset="100%" />
+              <stop stopColor="#d946ef" offset="0%" />
+              <stop stopColor="#a21caf" stopOpacity="0" offset="100%" />
             </linearGradient>
           </defs>
           <g fill="none" fillRule="evenodd">
@@ -45,10 +45,14 @@ function WelcomeBanner() {
         </svg>
       </div>
 
-      {/* Content */}
+      
       <div className="relative">
-        <h1 className="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold mb-1">Good afternoon, Acme Inc. 👋</h1>
-        <p className="dark:text-indigo-200">Here is what’s happening with your projects today:</p>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-[poppins] dark:text-slate-100 font-bold mb-1">
+          Good day, Xprios! 👋
+        </h1>
+        <p className="text-base md:text-lg lg:text-lg text-white  dark:text-indigo-200 font-[poppins]">
+        Transforming your ideas into insightful surveys with simplicity and precision:
+        </p>
       </div>
     </div>
   );
