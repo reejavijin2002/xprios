@@ -56,8 +56,8 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-fuchsia-400 via-fuchsia-600 to-fuchsia-700 h-auto mx-5 mt-16">
-      <h1 className="text-white md:text-6xl sm:text-4xl xs:text-2xl font-extrabold p-20 sm:p-10 xs:p-3 font-[poppins]">
+    <div className="bg-gradient-to-r from-stone-200 via-stone-200 to-stone-200 h-auto mx-5 mt-16">
+      <h1 className=" from-black via-slate-600 to-slate-500 shadow-md bg-clip-text  md:text-5xl sm:text-4xl xs:text-2xl font-extrabold p-5 sm:p-5 xs:p-3 font-[poppins]">
         What Makes Us Different
       </h1>
       {/* <div className="max-w-md my-auto mx-auto mt-0 bg-white pb-10 mb-10 p-12 align-middle rounded-md overflow-hidden shadow-md">
@@ -71,10 +71,10 @@ const ImageSlider = () => {
                   <img
                     src={image.src}
                     alt={`Slide ${index + 1}`}
-                    className="w-full h-64 object-cover rounded-md"
+                    className="w-full h-52 object-cover rounded-md"
                   />
                 </div>
-                <div className="p-14 text-2xl sm:p-10 xs:p-5 text-white font-bold md:w-1/2">
+                <div className="p-14 text-xl sm:p-10 xs:p-5 bg-gradient-to-r text-black font-medium md:w-1/2">
                   <p className="font-[poppins]">{image.caption}</p>
                 </div>
               </div>
