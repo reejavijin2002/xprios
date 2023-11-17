@@ -34,7 +34,7 @@ const HealthcareSurvey = () => {
 
       <div className="max-w-md mx-auto bg-white p-6 rounded-md shadow-md">
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="medicalCareSatisfaction">
+          <label className="block text-sm font-normal mb-2" htmlFor="medicalCareSatisfaction">
             How satisfied are you with the medical care provided?
           </label>
           <select
@@ -53,7 +53,7 @@ const HealthcareSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="patientWellBeingSatisfaction">
+          <label className="block text-sm font-normal mb-2" htmlFor="patientWellBeingSatisfaction">
             How satisfied are you with your overall well-being as a patient?
           </label>
           <select
@@ -72,7 +72,7 @@ const HealthcareSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="communicationSatisfaction">
+          <label className="block text-sm font-normal mb-2" htmlFor="communicationSatisfaction">
             How satisfied are you with the communication from healthcare providers?
           </label>
           <select
@@ -91,7 +91,7 @@ const HealthcareSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="improvementSuggestions">
+          <label className="block text-sm font-normal mb-2" htmlFor="improvementSuggestions">
             Any suggestions for improving healthcare services or communication?
           </label>
           <textarea
@@ -106,7 +106,7 @@ const HealthcareSurvey = () => {
 
         <div className="text-center">
           <button
-            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo"
+            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-white hover:outline hover:text-fuchsia-700 focus:outline-none focus:shadow-outline-indigo"
             onClick={() => console.log(responses)}
           >
             Submit

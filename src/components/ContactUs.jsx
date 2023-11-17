@@ -5,6 +5,7 @@ import video from "../../src/gif/videocontact.mp4";
 import { Link } from "react-router-dom";
 import logo from "../images/WhatsApp Image 2023-11-03 at 1.15.53 PM.jpeg";
 import Headlinks from "./Headlinks";
+import Footer from "./Footer";
 
 const MyForm = () => {
   const [formData, setFormData] = useState({
@@ -297,7 +298,7 @@ const MyForm = () => {
               <div className="w-full px-3">
                 <button
                   type="submit"
-                  className="bg-fuchsia-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  className="bg-fuchsia-700 hover:bg-white hover:outline hover:text-fuchsia-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 >
                   Submit
                 </button>
@@ -404,8 +405,12 @@ const MyForm = () => {
           </div>
         </div>
       </div>
+      <div className="border-t border-gray-100 bg-white my-4 md:my-8"></div>
 
-      <div className="bg-white p-4 md:px-8 md:py-6">
+
+      <Footer/>
+
+      {/* <div className="bg-white p-4 md:px-8 md:py-6">
         <div className="border-t border-gray-300 my-4 md:my-8"></div>
         <div className="md:flex p-10 py-5">
           <div>
@@ -427,7 +432,7 @@ const MyForm = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

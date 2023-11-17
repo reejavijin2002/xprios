@@ -8,7 +8,7 @@ import { MdViewHeadline } from "react-icons/md";
 
 function Header() {
   return (
-    <header className=" sticky top-0 bg-stone-100 dark:bg-[#030508] border-b border-slate-200 dark:border-slate-700 z-30 ">
+    <header className=" sticky top-0 bg-stone-100 dark:bg-[#030508]  border-b border-slate-200 dark:border-slate-700 z-30 ">
       <div className="px-4 ">
         <div className="flex items-center justify-between h-16 ">
           <Link to="/">

@@ -6,6 +6,7 @@ import logo from "../images/WhatsApp Image 2023-11-03 at 1.15.53 PM.jpeg";
 import image from "../images/about1.jpg";
 import Headlinks from "./Headlinks";
 import Header from "../partials/Header";
+import Footer from "./Footer";
 
 const AboutUs = () => {
   const [show, setShow] = useState(false);
@@ -113,8 +114,9 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white p-4 md:px-8 md:py-6">
-      <div className="border-t border-gray-300 my-4 md:my-8"></div>
+      <div className="border-t border-gray-100 my-4 md:my-8"></div>
+
+      {/* <div className="bg-white p-4 md:px-8 md:py-6">
         <div className="md:flex p-10 py-5">
           <div>
             <p className="text-gray-600 font-[poppins] md:px-20">
@@ -135,7 +137,8 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Footer/>
     </>
   );
 };

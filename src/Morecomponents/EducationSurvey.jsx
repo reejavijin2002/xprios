@@ -34,7 +34,7 @@ const EducationSurvey = () => {
 
       <div className="max-w-md mx-auto bg-white p-6 rounded-md shadow-md">
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="academicProgramSatisfaction">
+          <label className="block text-sm font-normal mb-2" htmlFor="academicProgramSatisfaction">
             How satisfied are you with the academic programs offered?
           </label>
           <select
@@ -53,7 +53,7 @@ const EducationSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="processSatisfaction">
+          <label className="block text-sm font-normal mb-2" htmlFor="processSatisfaction">
             How satisfied are you with the administrative and learning processes?
           </label>
           <select
@@ -72,7 +72,7 @@ const EducationSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="overallSatisfaction">
+          <label className="block text-sm font-normal mb-2" htmlFor="overallSatisfaction">
             Overall, how satisfied are you with the education provided?
           </label>
           <select
@@ -91,7 +91,7 @@ const EducationSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="improvementSuggestions">
+          <label className="block text-sm font-normal mb-2" htmlFor="improvementSuggestions">
             Any suggestions for improving academic programs or processes?
           </label>
           <textarea
@@ -106,7 +106,7 @@ const EducationSurvey = () => {
 
         <div className="text-center">
           <button
-            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo"
+            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-white hover:outline hover:text-fuchsia-700 focus:outline-none focus:shadow-outline-indigo"
             onClick={() => console.log(responses)}
           >
             Submit

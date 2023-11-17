@@ -28,7 +28,7 @@ const MarketResearchSurvey = () => {
 
       <div className="max-w-md mx-auto bg-white p-6 rounded-md shadow-md">
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="productSatisfaction">
+          <label className="block text-sm font-normal mb-2" htmlFor="productSatisfaction">
             How satisfied are you with our products/services?
           </label>
           <select
@@ -47,7 +47,7 @@ const MarketResearchSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="marketAwareness">
+          <label className="block text-sm font-normal mb-2" htmlFor="marketAwareness">
             How aware are you of our company in the market?
           </label>
           <select
@@ -66,7 +66,7 @@ const MarketResearchSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="improvementSuggestions">
+          <label className="block text-sm font-normal mb-2" htmlFor="improvementSuggestions">
             Any suggestions for improving our products/services or market presence?
           </label>
           <textarea
@@ -81,7 +81,7 @@ const MarketResearchSurvey = () => {
 
         <div className="text-center">
           <button
-            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo"
+            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-white hover:outline hover:text-fuchsia-700 focus:outline-none focus:shadow-outline-indigo"
             onClick={() => console.log(responses)}
           >
             Submit

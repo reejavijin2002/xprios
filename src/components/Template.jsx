@@ -10,6 +10,7 @@ import health from "../images/health.jpg";
 import logo from "../images/WhatsApp Image 2023-11-03 at 1.15.53 PM.jpeg";
 import Headlinks from "./Headlinks";
 import Header from "../partials/Header";
+import Footer from "./Footer";
 
 const Template = () => {
   const surveyTemplates = [
@@ -85,7 +86,7 @@ const Template = () => {
         Obtain Survey Templates To Aid In Your Initial Steps
       </h1>
       
-      <div className="grid  bg-white grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
+      <div className="grid  bg-white grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
         {surveyTemplates.map((template, index) => (
           
           <div
@@ -112,7 +113,10 @@ const Template = () => {
          
         </div>
       </div>
-      <div className="bg-white p-4 md:px-8 md:py-6">
+      <div className="border-t border-gray-100 bg-white my-4 md:my-8"></div>
+
+      <Footer/>
+      {/* <div className="bg-white p-4 md:px-8 md:py-6">
         <div className="border-t border-gray-300 font-[poppins] my-4 md:my-8"></div>
         <div className="md:flex p-10 py-5 font-[poppins]">
           <div>
@@ -131,7 +135,7 @@ const Template = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

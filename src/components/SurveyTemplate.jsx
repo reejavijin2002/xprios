@@ -59,7 +59,7 @@ const SurveyTemplatesComponent = () => {
       <h1 className="text-center md:text-4xl pt-10 lg:pl-80 lg:pr-80 sm:text-2xl xs:text-xl bg-stone-100 font-[poppins] font-extrabold pb-10 w-full">
         Obtain Survey Templates To Aid In Your Initial Steps
       </h1>
-      <div className="grid  bg-stone-100 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
+      <div className="grid  bg-stone-100 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-5">
         {surveyTemplates.map((template, index) => (
           
           <div

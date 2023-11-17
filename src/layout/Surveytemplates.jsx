@@ -25,7 +25,7 @@ const SurveyTemplates = () => (
       Obtain Survey Templates To Aid In Your Initial Steps
     </h1>
     <div className="max-w-screen-lg mx-auto">
-      <div className="grid bg-white grid-cols-1 font-[poppins] md:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
+      <div className="grid bg-white grid-cols-1 font-[poppins] md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
         <Link to='/dashboardarrange/CustomerSatisfactionSurvey'>
         <SurveyTemplateCard
           title='Customer Satisfaction'

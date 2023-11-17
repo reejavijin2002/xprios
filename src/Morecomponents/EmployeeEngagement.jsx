@@ -31,7 +31,7 @@ const EmployeeEngagement = () => {
 
       <div className="max-w-md mx-auto bg-white p-6 rounded-md shadow-md">
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="jobSatisfaction">
+          <label className="block text-sm font-normal mb-2" htmlFor="jobSatisfaction">
             How satisfied are you with your current job?
           </label>
           <select
@@ -50,7 +50,7 @@ const EmployeeEngagement = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="workLifeBalance">
+          <label className="block text-sm font-normal mb-2" htmlFor="workLifeBalance">
             How would you rate your work-life balance?
           </label>
           <select
@@ -69,7 +69,7 @@ const EmployeeEngagement = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-sm font-semibold mb-2" htmlFor="improvementSuggestions">
+          <label className="block text-sm font-normal mb-2" htmlFor="improvementSuggestions">
             Any suggestions for improving the work environment?
           </label>
           <textarea
@@ -84,7 +84,7 @@ const EmployeeEngagement = () => {
 
         <div className="text-center">
           <button
-            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo"
+            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-white hover:outline hover:text-fuchsia-700 focus:outline-none focus:shadow-outline-indigo"
             onClick={() => console.log(responses)}
           >
             Submit

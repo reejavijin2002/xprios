@@ -8,6 +8,7 @@ import smsImage from "../images/message1.jpg";
 import realTimeReportImage from "../images/charts.jpg";
 import Headlinks from "./Headlinks";
 import Header from "../partials/Header";
+import Footer from "./Footer";
 
 const Feature = ({ title, description, imageSrc }) => {
   return (
@@ -91,7 +92,12 @@ const FeaturesPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white p-4 md:px-8 md:py-6">
+      
+      <div className="border-t border-gray-100 bg-white my-4 md:my-8"></div>
+  
+
+      <Footer/>
+      {/* <div className="bg-white p-4 md:px-8 md:py-6">
         <div className="border-t border-gray-300 my-4 md:my-8"></div>
         <div className="md:flex p-10 py-5">
           <div>
@@ -113,7 +119,7 @@ const FeaturesPage = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

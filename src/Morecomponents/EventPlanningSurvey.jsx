@@ -32,7 +32,7 @@ const EventManagementSurvey = () => {
       <div className="container md:flex mx-auto mt-8 p-4">
         <div className="max-w-md mx-auto bg-white p-6 rounded-md shadow-md">
           <div className="mb-4">
-            <label className="block text-sm font-semibold mb-2" htmlFor="beforeEventSatisfaction">
+            <label className="block text-sm font-normal mb-2" htmlFor="beforeEventSatisfaction">
               How satisfied were you with the event management before the event?
             </label>
             <select
@@ -51,7 +51,7 @@ const EventManagementSurvey = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block text-sm font-semibold mb-2" htmlFor="duringEventSatisfaction">
+            <label className="block text-sm font-normal mb-2" htmlFor="duringEventSatisfaction">
               How satisfied were you with the event management during its execution?
             </label>
             <select
@@ -70,7 +70,7 @@ const EventManagementSurvey = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block text-sm font-semibold mb-2" htmlFor="afterEventSatisfaction">
+            <label className="block text-sm font-normal mb-2" htmlFor="afterEventSatisfaction">
               How satisfied were you with the event management after its conclusion?
             </label>
             <select
@@ -89,7 +89,7 @@ const EventManagementSurvey = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block text-sm font-semibold mb-2" htmlFor="improvementSuggestions">
+            <label className="block text-sm font-normal mb-2" htmlFor="improvementSuggestions">
               Any suggestions for improving our event management services?
             </label>
             <textarea
@@ -104,7 +104,7 @@ const EventManagementSurvey = () => {
 
           <div className="text-center">
             <button
-              className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo"
+              className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-white hover:outline hover:text-fuchsia-700 focus:outline-none focus:shadow-outline-indigo"
               onClick={() => console.log(responses)}
             >
               Submit

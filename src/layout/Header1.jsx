@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <div className="">
-        <header className="sticky top-0 bg-stone-100 dark:bg-[#030508] border-b border-slate-200 dark:border-slate-700 z-30 p-3 flex justify-between items-center">
+        <header className="sticky top-0 bg-stone-100 dark:bg-[#030508]  border-b border-slate-200 dark:border-slate-700 z-30 p-3 flex justify-between items-center">
           <div className="flex">
             <div>
               <img src={logo} alt="" height="25px" width="25px" />

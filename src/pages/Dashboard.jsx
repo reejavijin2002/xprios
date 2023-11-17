@@ -26,18 +26,16 @@ function Dashboard() {
                 </h4>
                 <div className="flex">
                   <div>
-                  <Link to="/Login">
-                    <button className="md:p-3 md:text-lg md:mr-4 xs:mr-1 bg-fuchsia-700 xs:text-xs font-[poppins] xs:p-2 mt-5 rounded-md hover:bg-white hover:outline hover:text-fuchsia-700 border-solid border-black text-white font-normal w-35 ">
-                    Sign up for free
-                    </button>
+                    <Link to="/Login">
+                      <button className="md:p-3 md:text-lg md:mr-4 xs:mr-1 bg-fuchsia-700 xs:text-xs font-[poppins] xs:p-2 mt-5 rounded-md hover:bg-white hover:outline hover:text-fuchsia-700 border-solid border-black text-white font-normal w-35 ">
+                        Sign up for free
+                      </button>
                     </Link>
                   </div>
                   <div>
-                    
-                      <button className="md:p-3 md:text-lg mr-1  border border-fuchsia-700 xs:text-xs font-[poppins] xs:p-2 mt-5 text-fuchsia-700 rounded-lg  font-normal w-35">
-                       Get start
-                      </button>
-                   
+                    <button className="md:p-3 md:text-lg mr-1  border border-fuchsia-700 xs:text-xs font-[poppins] xs:p-2 mt-5 text-fuchsia-700 rounded-lg  font-normal w-35">
+                      Let’s Begin
+                    </button>
                   </div>
                 </div>
               </div>

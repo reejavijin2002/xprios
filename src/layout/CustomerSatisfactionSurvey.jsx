@@ -33,9 +33,9 @@ const CustomerSatisfactionSurvey = () => {
 
     <div className="container mx-auto bg-white font-[poppins] md:flex  mt-8 ">
 
-      <div className="max-w-md mx-auto bg-white p-6 rounded-md ">
+      <div className="max-w-md mx-auto bg-white p-6 rounded-md  ">
         <div className="mb-4">
-          <label className="block text-md font-semibold mb-2" htmlFor="satisfaction">
+          <label className="block text-md font-normal mb-2" htmlFor="satisfaction">
             How satisfied are you with our products/services?
           </label>
           <select
@@ -54,7 +54,7 @@ const CustomerSatisfactionSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-md font-semibold mb-2" htmlFor="likelihoodToRecommend">
+          <label className="block text-md font-normal mb-2" htmlFor="likelihoodToRecommend">
             How likely are you to recommend our products/services to others?
           </label>
           <select
@@ -73,7 +73,7 @@ const CustomerSatisfactionSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-md font-semibold mb-2" htmlFor="favoriteFeature">
+          <label className="block text-md font-normal mb-2" htmlFor="favoriteFeature">
             What is your favorite feature of our products/services?
           </label>
           <input
@@ -87,7 +87,7 @@ const CustomerSatisfactionSurvey = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-md font-semibold mb-2" htmlFor="feedback">
+          <label className="block text-md font-normal mb-2" htmlFor="feedback">
             Any additional comments or suggestions?
           </label>
           <textarea
@@ -102,7 +102,7 @@ const CustomerSatisfactionSurvey = () => {
 
         <div className="text-center">
           <button
-            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo"
+            className="bg-fuchsia-700 text-white px-4 py-2 rounded-md hover:bg-white hover:outline hover:text-fuchsia-700 focus:outline-none focus:shadow-outline-indigo"
             onClick={() => console.log(responses)}
           >
             Submit

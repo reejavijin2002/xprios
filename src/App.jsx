@@ -31,6 +31,7 @@ import EducationSurvey from "./Morecomponents/EducationSurvey";
 import EventPlanningSurvey from "./Morecomponents/EventPlanningSurvey";
 import MarketResearchSurvey from "./Morecomponents/MarketResearchSurvey";
 import HealthcareSurvey from "./Morecomponents/HealthcareSurvey";
+import NotFound from "./components/NotFound";
 
 
 
@@ -57,7 +58,8 @@ function App() {
         <Route exact path="/dashboard/createsurvey" element={<SurveyModal />} />
         <Route exact path="/Dashboardicon" element={<Dashboardicon/>}/>
         <Route exact path="/Landingicon" element={<Landingicon/>}/>
-
+        <Route exact path="*" element={<NotFound/>}/>
+       
 
 
 
@@ -109,6 +111,7 @@ function App() {
              <Route 
           path="HealthcareSurvey"
            element={<HealthcareSurvey/>}/>
+            
            
       </Route>
        
