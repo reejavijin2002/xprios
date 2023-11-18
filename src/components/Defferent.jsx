@@ -50,13 +50,13 @@ const ImageSlider = () => {
     autoplayspeed: 1,
     pauseOnHover: true,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
 
   return (
-    <div className="bg-gradient-to-r from-stone-200 via-stone-200 to-stone-200 h-auto mx-5 mt-16">
+    <div className="bg-gradient-to-r from-stone-300 via-stone-300  to-stone-300  h-auto  mt-16">
       <h1 className=" from-black via-slate-600 to-slate-500 shadow-md bg-clip-text  md:text-5xl sm:text-4xl xs:text-2xl font-extrabold p-5 sm:p-5 xs:p-3 font-[poppins]">
         What Makes Us Different
       </h1>
@@ -66,7 +66,7 @@ const ImageSlider = () => {
         <Slider {...settings}>
           {images.map((image, index) => (
             <div key={index} className=" ">
-              <div className="md:flex p-10 sm:p-6 xs:p-2 px-20 pt-0">
+              <div className="md:flex p-10 sm:p-6 xs:p-2 px-20 pt-0 shadow-xl">
                 <div>
                   <img
                     src={image.src}

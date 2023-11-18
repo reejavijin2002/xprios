@@ -5,6 +5,14 @@ const Dashboardicon = () => {
   return (
     <nav className="bg-fuchsia-700 font-semibold font-[poppins] xs:w-full sm:w-full md:w-full text-white  p-4  h-screen">
       <ul className="space-y-4">
+      <li className="mb-2">
+          <Link
+            to="/dashboardarrange"
+            className="block py-2 px-4 hover:bg-fuchsia-600 transition duration-300 rounded"
+          >
+            Home
+          </Link>
+        </li>
         <li className="mb-2">
           <Link
             to="/dashboardarrange/surveycreation"
@@ -55,14 +63,7 @@ const Dashboardicon = () => {
             Feedback
           </Link>
         </li>
-        <li className="mb-2">
-          <Link
-            to="/dashboardarrange"
-            className="block py-2 px-4 hover:bg-fuchsia-600 transition duration-300 rounded"
-          >
-            Go back
-          </Link>
-        </li>
+       
       </ul>
     </nav>
   );

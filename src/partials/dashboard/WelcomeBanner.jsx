@@ -2,7 +2,7 @@ import React from 'react';
 
 function WelcomeBanner() {
   return (
-    <div className="relative bg-gradient-to-r from-fuchsia-600 via-fuchsia-500 to-fuchsia-400 dark:from-fuchsia-500 dark:via-fuchsia-400 dark:to-fuchsia-300 p-4 sm:p-6 rounded-sm overflow-hidden mb-8">
+    <div className="relative bg-gradient-to-r from-fuchsia-600 via-fuchsia-500 to-fuchsia-400 dark:from-fuchsia-500 dark:via-fuchsia-400 dark:to-fuchsia-300 p-4 sm:p-6 rounded-sm overflow-hidden ">
       
       <div className="absolute right-0 top-0 -mt-4 mr-16 pointer-events-none hidden xl:block" aria-hidden="true">
         <svg width="319" height="198" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -51,8 +51,7 @@ function WelcomeBanner() {
           Good day, Xprios! 👋
         </h1>
         <p className="text-base md:text-lg lg:text-lg text-white  dark:text-indigo-200 font-[poppins]">
-        Transforming your ideas into insightful surveys with simplicity and precision:
-        </p>
+        Transforming your ideas into accurate and clear surveys:        </p>
       </div>
     </div>
   );

@@ -31,6 +31,8 @@ const MyForm = () => {
     });
   };
 
+
+
   const validateForm = () => {
     const newErrors = {};
 
@@ -71,6 +73,18 @@ const MyForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log("FirstName:",formData.firstName)
+    console.log("LastName:",formData.lastName)
+    console.log("BusinessMail:",formData.businessMail)
+
+    console.log("ContactNo:",formData.contactNo)
+    console.log("Company:",formData.company)
+    console.log("Country:",formData.country)
+    console.log("Message:",formData.message)
+
+
+
+
     if (validateForm()) {
     }
   };
@@ -127,7 +141,7 @@ const MyForm = () => {
                   First Name
                 </label>
                 <input
-                  className={`appearance-none block w-full bg-gray-200 text-white border ${
+                  className={`appearance-none block w-full bg-gray-200 text-black border ${
                     errors.firstName ? "border-red-500" : "border-black-500"
                   } rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white`}
                   id="grid-first-name"
@@ -135,6 +149,7 @@ const MyForm = () => {
                   name="firstName"
                   value={formData.firstName}
                   onChange={handleChange}
+                  
                   placeholder="Jane"
                 />
                 {errors.firstName && (
@@ -177,7 +192,7 @@ const MyForm = () => {
                   Business email
                 </label>
                 <input
-                  className={`appearance-none block w-full bg-gray-200 text-white border ${
+                  className={`appearance-none block w-full bg-gray-200 text-black border ${
                     errors.businessMail ? "border-red-500" : "border-black-500"
                   } rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white`}
                   id="grid-business-email"

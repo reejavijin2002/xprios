@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import logo from "../images/WhatsApp Image 2023-11-03 at 1.15.53 PM.jpeg";
 import { Link } from "react-router-dom";
 import Headlinks from "../components/Headlinks";
-import home from "../images/log.jpg";
+import home from "../images/main.jpg";
 import { MdViewHeadline } from "react-icons/md";
 
 function Header() {

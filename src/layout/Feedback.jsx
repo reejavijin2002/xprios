@@ -32,7 +32,7 @@ const FeedbackPage = () => {
 
           <button
             type="submit"
-            className="bg-fuchsia-700 text-white py-2 px-4 rounded hover:bg-white hover:outline hover:text-fuchsia-700"
+            className="bg-fuchsia-700 text-white w-full py-2 px-4 rounded hover:bg-white hover:outline hover:text-fuchsia-700"
           >
             Submit Feedback
           </button>
