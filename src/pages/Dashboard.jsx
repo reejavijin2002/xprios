@@ -23,7 +23,7 @@ function Dashboard() {
                 <h1 className="md:text-4xl sm:text-2xl xs:text-xl xs:py-4 font-[poppins] font-extrabold md:py-7 text-fuchsia-700">
                   Join The Conversation,Take Our Surveys Today
                 </h1>
-                <h4 className="md:text-2xl sm:text-lg xs:text-sm xs:py-2 font-[poppins]  text-gray-600 xs:font-medium sm:font-light md:py-3">
+                <h4 className="md:text-2xl sm:text-lg xs:text-xs xs:py-2 font-[poppins]  text-gray-600 xs:font-medium sm:font-light md:py-3">
                   In a world of questions, surveys hold the answers
                 </h4>
                 <div className="flex">

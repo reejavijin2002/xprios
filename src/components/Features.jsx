@@ -6,6 +6,7 @@ import dashboardsImage from "../images/dash.jpg";
 import qrCodeImage from "../images/qr.jpg";
 import smsImage from "../images/message1.jpg";
 import realTimeReportImage from "../images/charts.jpg";
+import mobile from '../images/mobile.jpg'
 import Headlinks from "./Headlinks";
 import Header from "../partials/Header";
 import Footer from "./Footer";
@@ -85,6 +86,11 @@ const FeaturesPage = () => {
               title="Real-time Report with Charts"
               description="Effortlessly access real-time reports featuring interactive charts immediately upon survey launch."
               imageSrc={realTimeReportImage}
+            />
+             <Feature
+              title="Mobile-Responsive Surveys"
+              description="Optimize accessibility with mobile-responsive surveys that enhance user experience on various devices."
+              imageSrc={mobile}
             />
           </div>
           <div className="mt-5">

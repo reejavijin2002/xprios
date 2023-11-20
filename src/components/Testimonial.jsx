@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../images/user-36-01.jpg";
-import img2 from "../images/user-36-03.jpg";
+import img2 from "../images/user-36-07.jpg";
 import img3 from "../images/user-36-02.jpg";
 import img4 from "../images/user-36-04.jpg";
 import img5 from "../images/user-36-05.jpg";
@@ -10,11 +10,11 @@ const Testimonials = () => {
   const testimonialsData = [
     {
       id: 1,
-      name: "Arjun de",
+      name: "Liya",
       imageSrc: img1,
       rating: 5,
       content:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!",
+        "Creating surveys has never been easier! This survey creation website offers an intuitive and user-friendly interface that allowed me to design and customize surveys effortlessly",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const Testimonials = () => {
       imageSrc: img2,
       rating: 4,
       content:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!",
+        "The range of question types and styling options provided a lot of flexibility. I particularly liked how quickly I could share the surveys with my audience, and the real-time analytics helped me gather valuable insights instantly.",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const Testimonials = () => {
       imageSrc: img3,
       rating: 4,
       content:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!",
+        "It's a powerful tool for anyone looking to gather feedback or conduct research. Highly recommended!",
     },
     {
       id: 4,
@@ -38,15 +38,15 @@ const Testimonials = () => {
       imageSrc: img4,
       rating: 5,
       content:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!",
+        "Outstanding experience with this survey creation platform! The user interface is sleek and modern, making the entire survey-building process a breeze",
     },
     {
       id: 5,
-      name: "Pranav",
+      name: "Rose",
       imageSrc: img5,
       rating: 5,
       content:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!",
+        "The real-time collaboration feature was a game-changer for our team, allowing us to seamlessly work together on crafting the perfect surveys.",
     },
     {
       id: 6,
@@ -54,7 +54,7 @@ const Testimonials = () => {
       imageSrc: img6,
       rating: 5,
       content:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!",
+        "The analytics dashboard provides insightful data visualizations, making analysis a joy. This website has truly elevated our surveying game!",
     },
   ];
 

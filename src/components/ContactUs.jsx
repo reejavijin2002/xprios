@@ -125,10 +125,10 @@ const MyForm = () => {
             className="   max-w-lg xs:p-2  sm:p-5 xs: bg-white text-black"
             onSubmit={handleSubmit}
           >
-            <h1 className="  py-10 xs:py-3 md:text-4xl mb-0  text-black-500 sm:text-2xl xs:text-xl font-extrabold font-[poppins] text-fuchsia-700 ">
+            <h1 className="  py-10 xs:py-3 md:text-4xl mb-0  text-black-500 sm:text-2xl xs:text-xl font-bold font-[poppins] text-fuchsia-700 ">
               Xprios Enterprise
             </h1>
-            <h2 className="  py-10 xs:py-3 md:text-2xl mb-10  text-black-500 sm:text-1xl xs:text-xl font-extrabold font-[poppins] ">
+            <h2 className="  py-10 xs:py-3 md:text-2xl mb-10  text-black-500 sm:text-1xl xs:text-xl font-normal font-[poppins] ">
               Join The Conversation,Take Our Surveys Today
             </h2>
 
@@ -150,7 +150,7 @@ const MyForm = () => {
                   value={formData.firstName}
                   onChange={handleChange}
                   
-                  placeholder="Jane"
+                  placeholder="firstname"
                 />
                 {errors.firstName && (
                   <p className="text-red-500 text-xs italic">
@@ -174,7 +174,7 @@ const MyForm = () => {
                   name="lastName"
                   value={formData.lastName}
                   onChange={handleChange}
-                  placeholder="Doe"
+                  placeholder="lastname"
                 />
                 {errors.lastName && (
                   <p className="text-red-500 text-xs italic">
@@ -200,7 +200,7 @@ const MyForm = () => {
                   name="businessMail"
                   value={formData.businessMail}
                   onChange={handleChange}
-                  placeholder="jane@example.com"
+                  placeholder="example@example.com"
                 />
                 {errors.businessMail && (
                   <p className="text-red-500 text-xs italic">
@@ -224,7 +224,7 @@ const MyForm = () => {
                   name="contactNo"
                   value={formData.contactNo}
                   onChange={handleChange}
-                  placeholder="123-456-7890"
+                  placeholder="phonenumber"
                 />
                 {errors.contactNo && (
                   <p className="text-red-500 text-xs italic">
@@ -250,7 +250,7 @@ const MyForm = () => {
                   name="company"
                   value={formData.company}
                   onChange={handleChange}
-                  placeholder="ABC Company"
+                  placeholder="Company"
                 />
                 {errors.company && (
                   <p className="text-red-500 text-xs italic">
@@ -274,7 +274,7 @@ const MyForm = () => {
                   name="country"
                   value={formData.country}
                   onChange={handleChange}
-                  placeholder="USA"
+                  placeholder=""
                 />
                 {errors.country && (
                   <p className="text-red-500 text-xs italic">
@@ -313,7 +313,7 @@ const MyForm = () => {
               <div className="w-full px-3">
                 <button
                   type="submit"
-                  className="bg-fuchsia-700 hover:bg-white hover:outline hover:text-fuchsia-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  className="bg-fuchsia-700  hover:bg-white hover:outline hover:text-fuchsia-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 >
                   Submit
                 </button>
@@ -323,12 +323,12 @@ const MyForm = () => {
         </div>
 
         <div className="bg-  ml-2 md:w-1/2 mt-5">
-          <div className=" md:p-11 md:pb-0 md:pr-2 xs:p-1 mb-0 md:text-4xl xs:text-2xl  font-extrabold font-[poppins] text-fuchsia-700">
+          <div className=" md:p-11 md:pb-0 md:pr-2 xs:p-1 mb-0 md:text-4xl xs:text-2xl  font-bold font-[poppins] text-fuchsia-700">
             <h1>
               Make important business decisions with insight-based support.
             </h1>
           </div>
-          <div className=" md:p-11 md:pb-0 md:pr-2 xs:p-1 md:text-2xl xs:text-xl text-black font-[poppins] font-bold  pb-0 ">
+          <div className=" md:p-11 md:pb-0 md:pr-2 xs:p-1 md:text-2xl xs:text-xl text-black font-[poppins] font-normal  pb-0 ">
             <h5>
               {" "}
               Xpiros Enterprise allows you to get feedback from your target

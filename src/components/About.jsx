@@ -62,7 +62,7 @@ const AboutUs = () => {
                 throughout the entire survey process.
               </p>
 
-              <img src={image} alt="" height="200px" width="auto" />
+              <img src={image} alt="" height="200px" width="auto"  className="pt-0"/>
             </div>
             <div className="md:w-1/2 xs:w-full md:p-5 sm:p-3 xs:p-1">
               <div className="mb-6">
