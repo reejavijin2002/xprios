@@ -13,7 +13,7 @@ import Footer from "./Footer";
 
 const Feature = ({ title, description, imageSrc }) => {
   return (
-    <div className="mb-8 p-6 rounded-md border  border-stone-100 bg-stone-100 hover:shadow-md hover:border-blue-500">
+    <div className="mb-8 p-6 rounded-md border  border-stone-100 bg-stone-100 hover:shadow-md hover:border-fuchsia-500">
       <h2 className="text-xl font-bold mb-2">{title}</h2>
       <img
         src={imageSrc}

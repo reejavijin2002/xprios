@@ -1,13 +1,42 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import img from "../images/login.jpg";
 
 const Login = () => {
+  const [credentials, setCredentials] = useState({
+    username: "",
+    password: "",
+  });
 
+  const navigate = useNavigate();
 
-const validateForm =()=>{
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setCredentials({
+      ...credentials,
+      [name]: value,
+    });
+  };
 
-}
+  const handleLogin = (e) => {
+    e.preventDefault();
+
+    
+    const dummyUsername = "xprios@gmail.com";
+    const dummyPassword = "123";
+    
+
+    
+    if (
+      credentials.username === dummyUsername &&
+      credentials.password === dummyPassword
+    ) {
+      
+      navigate("/dashboardarrange");
+    } else {
+      window.alert("Invalid username or password");
+    }
+  };
 
   return (
     <div className="bg-white">
@@ -21,7 +50,7 @@ const validateForm =()=>{
             <h2 className="text-2xl font-semibold font-[poppins] mb-6">
               Login
             </h2>
-            <form>
+            <form onSubmit={handleLogin}>
               <div className="mb-4 font-[poppins]">
                 <label
                   htmlFor="username"
@@ -35,6 +64,8 @@ const validateForm =()=>{
                   name="username"
                   className="w-full border p-2 rounded-md"
                   placeholder="Enter your username"
+                  onChange={handleInputChange}
+                  value={credentials.username}
                 />
               </div>
               <div className="mb-6 font-[poppins]">
@@ -50,17 +81,16 @@ const validateForm =()=>{
                   name="password"
                   className="w-full border p-2 rounded-md"
                   placeholder="Enter your password"
+                  onChange={handleInputChange}
+                  value={credentials.password}
                 />
               </div>
-              <Link to="/dashboardarrange">
-                <button
-                  type="submit"
-                  className="w-full bg-fuchsia-700 font-[poppins] hover:bg-white hover:outline hover:text-fuchsia-700 text-white p-2 rounded-md "
-                >
-                  Login
-                </button>
-              </Link>
-             
+              <button
+                type="submit"
+                className="w-full bg-fuchsia-700 font-[poppins] hover:bg-white hover:outline hover:text-fuchsia-700 text-white p-2 rounded-md "
+              >
+                Login
+              </button>
             </form>
             <div className="mt-4 text-center font-[poppins] ">
               <p className="text-sm">
@@ -81,3 +111,4 @@ const validateForm =()=>{
 };
 
 export default Login;
+

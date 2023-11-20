@@ -64,7 +64,7 @@ const SurveyTemplatesComponent = () => {
           
           <div
             key={index}
-            className=" bg-white rounded-lg overflow-hidden font-[poppins] shadow-md"
+            className=" bg-white rounded-lg overflow-hidden font-[poppins] shadow-md "
           >
             <a href={template.link}>
               <img

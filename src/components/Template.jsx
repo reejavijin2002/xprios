@@ -86,12 +86,12 @@ const Template = () => {
         Obtain Survey Templates To Aid In Your Initial Steps
       </h1>
       
-      <div className="grid  bg-white grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
+      <div className="grid  bg-white grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5 ">
         {surveyTemplates.map((template, index) => (
           
           <div
             key={index}
-            className=" bg-white rounded-lg font-[poppins] overflow-hidden shadow-md"
+            className=" bg-white rounded-lg font-[poppins] overflow-hidden shadow-md "
           >
             <a href={template.link}>
               <img

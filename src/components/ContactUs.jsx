@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../partials/Header";
-import img1 from "../images/contact.png";
+import img1 from "../images/contact3.jpg";
 import video from "../../src/gif/videocontact.mp4";
 import { Link } from "react-router-dom";
 import logo from "../images/WhatsApp Image 2023-11-03 at 1.15.53 PM.jpeg";
@@ -86,6 +86,8 @@ const MyForm = () => {
 
 
     if (validateForm()) {
+      
+      localStorage.setItem("formData", JSON.stringify(formData));
     }
   };
 
@@ -125,7 +127,7 @@ const MyForm = () => {
             className="   max-w-lg xs:p-2  sm:p-5 xs: bg-white text-black"
             onSubmit={handleSubmit}
           >
-            <h1 className="  py-10 xs:py-3 md:text-4xl mb-0  text-black-500 sm:text-2xl xs:text-xl font-bold font-[poppins] text-fuchsia-700 ">
+            <h1 className="  py-10 xs:py-3 md:text-4xl mb-0  text-black-500 sm:text-2xl xs:text-xl font-bold font-[poppins] text-black ">
               Xprios Enterprise
             </h1>
             <h2 className="  py-10 xs:py-3 md:text-2xl mb-10  text-black-500 sm:text-1xl xs:text-xl font-normal font-[poppins] ">
@@ -323,7 +325,7 @@ const MyForm = () => {
         </div>
 
         <div className="bg-  ml-2 md:w-1/2 mt-5">
-          <div className=" md:p-11 md:pb-0 md:pr-2 xs:p-1 mb-0 md:text-4xl xs:text-2xl  font-bold font-[poppins] text-fuchsia-700">
+          <div className=" md:p-11 md:pb-0 md:pr-2 xs:p-1 mb-0 md:text-4xl xs:text-2xl  font-bold font-[poppins] text-black">
             <h1>
               Make important business decisions with insight-based support.
             </h1>
@@ -398,7 +400,7 @@ const MyForm = () => {
           <div className="sm:w-3/4">
             <p>
               Online SurveysSurveys on FacebookTemplate for Surveys: Planning
-              PollsSurveyMonkey vs. Google FormsSurveys of employee
+              Polls vs. Google FormsSurveys of employee
               satisfactionFree Templates for SurveysSurveys on the GoWays to
               Enhance Customer SupportCalculator for AB Test SignificanceNPS
               EstimatorSamples for QuestionnairesEvent Listing
